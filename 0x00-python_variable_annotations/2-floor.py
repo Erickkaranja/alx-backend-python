@@ -1,6 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 '''implementing type annotation.'''
 import math
+
+
 def floor(n: float) -> int:
     ''''returns floor of input n.
         n(float): float of conversion.

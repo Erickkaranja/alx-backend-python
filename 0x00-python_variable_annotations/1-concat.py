@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 '''implementing functions with type annotations.'''
 
 def concat(str1: str, str2: str) -> str:

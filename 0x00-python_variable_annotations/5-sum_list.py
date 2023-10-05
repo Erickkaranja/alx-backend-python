@@ -1,6 +1,7 @@
-#!/usr/bin/python3
-
+#!/usr/bin/env python3
+'''implementinf type annotation.'''
 from typing import List
+
 
 def sum_list(input_list: List[float]) -> float:
     """

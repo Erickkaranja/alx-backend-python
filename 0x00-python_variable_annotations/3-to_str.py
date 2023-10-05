@@ -1,5 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 '''application of type annotation'''
+
 
 def to_str(n: float) -> str:
     '''converts a float to a string.
