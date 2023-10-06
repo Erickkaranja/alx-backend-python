@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 '''implementing type annotations'''
 
 from typing import List, Union
