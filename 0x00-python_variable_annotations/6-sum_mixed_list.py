@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 '''implementing type annotations'''
-
 from typing import List, Union
+
 
 def sum_mixed_list(mxd_lst: List[Union[float | int]]) -> float:
     '''calculates the sum of both integers and floats in mxd_lst
