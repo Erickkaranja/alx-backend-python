@@ -2,10 +2,9 @@
 '''asyncronous input/output in python.'''
 import asyncio
 import random
-from typing import Optional
 
 
-async def wait_random(max_delay: Optional[float] = 10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     '''coroutine that waits for a given random delay time and returns it.
       args:
          max_delay (float, optional): The maximum delay in
