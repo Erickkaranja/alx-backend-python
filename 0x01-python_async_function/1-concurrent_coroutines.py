@@ -14,10 +14,9 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
        Returns:
            a list of floats generated from running wait_random.
     '''
-    my_list = []
+    my_list: List[float] = []
     corotines = [wait_random(max_delay) for _ in range(n)]
     for task in asyncio.as_completed(corotines):
         result = await task
         my_list.append(result)
-    my_list.sort()
     return my_list
